@@ -4,7 +4,7 @@ import * as EBML from "./EBML";
 import Encoder from "./EBMLEncoder";
 import Decoder from "./EBMLDecoder";
 import _Buffer = require("buffer/");
-import _tools = require("ebml/lib/ebml/tools");
+import { tools as _tools } from 'ebml';
 import _block = require("ebml-block");
 
 export const Buffer: typeof global.Buffer = _Buffer.Buffer;
