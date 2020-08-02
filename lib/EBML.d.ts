@@ -1,4 +1,3 @@
-/// <reference types="node" />
 export declare type ChildElementsValue = NumberElement | StringElement | BinaryElement | DateElement;
 export declare type EBMLElementValue = MasterElement | ChildElementsValue;
 export declare type ChildElementBuffer = ChildElement & {

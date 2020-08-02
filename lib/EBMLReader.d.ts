@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { EventEmitter } from "events";
 import * as EBML from './EBML';
 /**
@@ -59,7 +58,7 @@ export default class EBMLReader extends EventEmitter {
     /**
      * emit chunk info
      */
-    private emit_segment_info();
+    private emit_segment_info;
     read(elm: EBML.EBMLElementDetail): void;
     /**
      * DefaultDuration が定義されている場合は最後のフレームのdurationも考慮する

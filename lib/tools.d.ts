@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import * as EBML from "./EBML";
 export declare const Buffer: typeof global.Buffer;
 export declare const readVint: (buffer: Buffer, start: number) => null | ({
